@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>海报画廊</title>
+    <link href="css/glyphicons.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body onselectstart="return false;">
+<!--2.改写模板视图-->
+<div class="wrap" id="wrap">
+    <!--photo 负责平移、旋转-->
+    <!--<div class="photo photo_front" onclick="turn(this)" id="photo_{{index}}">-->
+        <!--&lt;!&ndash;photo_wrap 负责翻转&ndash;&gt;-->
+        <!--<div class="photo-wrap">-->
+            <!--<div class="side side-front">-->
+                <!--<p class="image"><img src="img/{{image}}"/></p>-->
+
+                <!--<p class="caption">{{caption}}</p>-->
+            <!--</div>-->
+            <!--<div class="side side-back">-->
+                <!--<p class="desc">{{desc}}</p>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="js/photo_model.js"></script>
+<script type="text/javascript" src="js/add_photos.js"></script>
+<script type="text/javascript" src="js/turn_console.js"></script>
+<script type="text/javascript" src="js/general_fun.js"></script>
+<script type="text/javascript" src="js/photos_layout.js"></script>
+<script type="text/javascript" src="js/photos_sort.js"></script>
+
+
+
+<script>
+//    var data = data;
+//    console.log("There"+data);
+    $(document).ready(function(){
+        addPhotos();
+        range();
+    });
+
+</script>
+
+</body>
+</html>

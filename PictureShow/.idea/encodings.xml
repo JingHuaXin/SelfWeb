@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/css/index.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/add_photos.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/general_fun.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/photo_model.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/photos_layout.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/photos_sort.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/turn_console.js" charset="UTF-8" />
+  </component>
+</project>
